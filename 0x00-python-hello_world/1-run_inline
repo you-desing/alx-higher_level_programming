@@ -1,2 +1,2 @@
 #!/bin/bash
-print(f"Best School: {98}")
+py $PYCODE
