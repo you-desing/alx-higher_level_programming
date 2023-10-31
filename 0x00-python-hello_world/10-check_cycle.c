@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * check_cycle - checks if list is cyclical
  * @list: pointer to list to check
