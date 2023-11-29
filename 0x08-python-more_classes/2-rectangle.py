@@ -41,5 +41,5 @@ class Rectangle:
         return Area
     def perimeter(self):
         """Perimeter of the rectangle."""
-        Parmt = self.width + self.height
+        Parmt =  2 * (self.width + self.height)
         return Parmt
