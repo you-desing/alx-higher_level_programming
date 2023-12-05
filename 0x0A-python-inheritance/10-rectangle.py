@@ -31,8 +31,8 @@ class Square(Rectangle):
     """Constructor with size parameter"""
     def __init__(self, size):
         """Call the constructor of the base class (Rectangle)"""
-        super().__init__(size, size)
         super().integer_validator("size", size)
+        super().__init__(size, size)
         self.__size = size
     def area(self):
         """area square"""
