@@ -28,12 +28,10 @@ class Rectangle(BaseGeometry):
         """ str method"""
         return "[Rectangle] " + str(self.__width) + "/" + str(self.__height)
 class Square(Rectangle):
-    """Constructor with size parameter"""
+    """square class"""
     def __init__(self, size):
-        """Call the constructor of the base class (Rectangle)"""
         super().integer_validator("size", size)
         super().__init__(size, size)
         self.__size = size
     def area(self):
-        """area square"""
         return self.__size * self.__size
