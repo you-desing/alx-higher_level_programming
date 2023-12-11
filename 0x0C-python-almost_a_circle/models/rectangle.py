@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """task 2 3 4 5 et 6"""
+from models.base import Base
+
 
 class Rectangle(base):
     """Rectangle base"""
